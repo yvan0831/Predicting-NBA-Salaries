@@ -48,11 +48,11 @@ Using the keras library from tensorflow, I built a neural network to hopefully b
 
 </br>
 
-![Screen Shot 2021-08-23 at 1 26 01 AM](https://user-images.githubusercontent.com/85101850/130513263-7f060b1e-5494-4977-90bf-d49957324073.png)
+<img width="231" alt="Screen Shot 2021-09-27 at 6 14 39 PM" src="https://user-images.githubusercontent.com/85101850/135006370-46a7363e-9421-473a-8ba7-dd8f9bfe3a1a.png">
 
 </br>
 
-These were the MSE and RMSE values the model gave me for each epoch it ran. It was set to run 200 epochs but early stopped way before. Even running the model all the way to 200 epochs kept the metrics around the same amount. The neural network built a model that was even worse than the voting regression model with an RMSE of over 5 million.
+These were the MSE and RMSE values the model gave me for each epoch it ran. As shown above, the RMSE and MSE are way worse than the values from the Voting Regressor Model. More Epochs can be ran in order to reduce the number, but it would only improve the metrics by small increments and would take a long time to catch up to the Voting Regressor
 
 </br>
 </br>
